@@ -1,0 +1,34 @@
+# Task 6 - K-Nearest Neighbors (KNN) Classification
+
+## Objective
+Implement KNN Classification using Scikit-learn.
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Dataset
+Iris Dataset
+
+## Steps Performed
+1. Loaded Iris dataset.
+2. Split dataset into training and testing sets.
+3. Normalized the features using StandardScaler.
+4. Trained KNN classifier with K values from 1 to 10.
+5. Selected the best K based on accuracy.
+6. Evaluated the model using:
+   - Accuracy
+   - Confusion Matrix
+   - Classification Report
+7. Visualized:
+   - Accuracy vs K
+   - Decision Boundary
+
+## Output
+- Best K value
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
